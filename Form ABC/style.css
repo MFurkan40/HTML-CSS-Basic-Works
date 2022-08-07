@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Josefin", sans-serif;
+}
+
+.container {
+  width: 50%;
+  margin: 80px auto;
+  min-width: 1100px;
+  max-width: 1100px;
+}
+
+.header {
+  color: #d1324d;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 30px;
+}
+
+.fieldset {
+  border: 5px solid black;
+  padding: 15px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 5px;
+}
+
+#onay[type="checkbox"] {
+  width: 20px;
+  height: 19px;
+}
+
+.fieldset legend {
+  margin-left: 5px;
+  font-size: 35px;
+}
+
+.btn-1 input {
+  color: black;
+  padding: 5px;
+  font-size: 17px;
+}
+
+.info-box {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 40px;
+  margin-bottom: -20px;
+}
+
+.info-box input {
+  width: 40%;
+  justify-self: start;
+  margin-left: 25px;
+  margin-bottom: 5px;
+}
+
+.fieldset div:last-child {
+  margin-bottom: 0px;
+}
+
+#file {
+  font-size: 22px;
+  position: relative;
+}
+
+.description {
+  color: #554a4ae7;
+  font-size: 21px;
+  font-style: italic;
+  margin-left: 30px;
+}
+
+.date-box {
+  display: flex;
+  gap: 120px;
+}
+
+.date-box input {
+  width: 18%;
+  padding: 2px 5px;
+  font-size: 20px;
+}
+
+.exp-box {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(4, 1fr);
+  column-gap: 28px;
+  margin-bottom: 5px;
+}
+
+.label-title {
+  grid-row: 1 / -1;
+}
+
+.exp-box input[type="radio"] {
+  width: 20px;
+  height: 20px;
+}
+
+.lang-box {
+  display: flex;
+  gap: 108px;
+}
+
+#option {
+  font-size: 22px;
+  width: 250px;
+  height: 130px;
+  margin-bottom: 50px;
+}
+
+#contract {
+  font-size: 18px;
+  border: 2px solid rgb(161, 154, 154);
+  width: 400px;
+  height: 150px;
+  margin-bottom: 5px;
+  resize: none;
+}
+
+.mail-box {
+  margin-left: 10px;
+}
+
+.mail-box input[type="radio"] {
+  width: 20px;
+  height: 20px;
+}
+
+.download-btn {
+  display: inline-block;
+  font-size: 16px;
+  width: 160px;
+  padding: 2px;
+}

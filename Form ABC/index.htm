@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form ABC</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>abc tasarım programı kurulum</h1>
+        <h1>ve satış sözleşmesİ</h1>
+      </header>
+      <form>
+        <fieldset class="fieldset">
+          <legend>Sözleşme Onay</legend>
+          <div>
+            <input type="checkbox" name="Onay" id="onay" value="onaylandı" />
+            <label for="onay"
+              >Aşağıdaki bilgilerin doğruluğunu kabul ediyorum ve sözleşmeyi
+              onaylıyorum.</label
+            >
+          </div>
+          <div class="btn-1">
+            <input type="button" value="Formu Kaydet" />
+            <input type="reset" value="Formu Temizle" />
+          </div>
+        </fieldset>
+
+        <fieldset class="fieldset">
+          <legend>Kişisel Bilgiler</legend>
+
+          <div class="info-box">
+            <label for="secure">Form Güvenlik ID</label>
+            <input type="text" name="güvenlik-id" id="secure" />
+          </div>
+
+          <div class="info-box">
+            <label for="fname">Ad</label>
+            <input type="text" name="Ad" id="fname" />
+          </div>
+          <div class="info-box">
+            <label for="lname">Soyad</label>
+            <input type="text" name="soyad" id="lname" />
+          </div>
+          <div class="info-box">
+            <label for="age">Yaş</label>
+            <input type="number" name="yaş" id="age" min="18" max="999" />
+          </div>
+          <div class="info-box">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+
+          <div class="info-box">
+            <label for="file">Fotoğraf Ekle</label>
+            <div>
+              <input type="file" name="dosya-seç" id="file" value="Dosya Seç" />
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset class="fieldset">
+          <legend>Diğer Bilgiler</legend>
+
+          <p class="description">
+            *Buradaki Alanlar Mesleki Deneyimi Kapsar...
+          </p>
+
+          <div class="date-box">
+            <label for="enter">Sektöre Giriş Tarihi</label>
+            <input
+              type="date"
+              name="giriş-tarihi"
+              id="enter"
+              min="1997-01-01"
+              max="2030-12-31"
+            />
+          </div>
+
+          <div class="exp-box">
+            <label class="label-title" for="deneyim-1">Sektör Deneyimi</label>
+            <div>
+              <input type="radio" name="süre" id="deneyim-1" value="1-5 Yıl" />
+              <label for="deneyim-1">1-5 Yıl</label>
+            </div>
+            <div>
+              <input type="radio" name="süre" id="deneyim-2" value="6-10 Yıl" />
+              <label for="deneyim-2">6-10 Yıl</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="süre"
+                id="deneyim-3"
+                value="11-15 Yıl"
+              />
+              <label for="deneyim-3">11-15 Yıl</label>
+            </div>
+            <div>
+              <input type="radio" name="süre" id="deneyim-4" value="15-üzeri" />
+              <label for="deneyim-4">15-üzeri</label>
+            </div>
+          </div>
+
+          <div class="lang-box">
+            <label for="option">Programlama Dilleri</label>
+            <select name="viewport" id="option" size="5" multiple>
+              <option value="C#">C#</option>
+              <option value="Python">Python</option>
+              <option value="Java">Java</option>
+              <option value="Javascript">Javascript</option>
+              <option value="PHP">PHP</option>
+              <option value="C++">C++</option>
+              <option value="Swift">Swift</option>
+              <option value="Matlab">Matlab</option>
+            </select>
+          </div>
+        </fieldset>
+
+        <fieldset class="fieldset">
+          <legend>Sözleşme Kopyası</legend>
+          <div class="contract">
+            <textarea name="contract" id="contract">
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor tempore, repellendus natus culpa quae in expedita officia a fugiat laboriosam sit explicabo. Accusamus non natus eligendi sed, corporis esse aspernatur repellat nostrum quisquam aut molestiae ipsa, necessitatibus doloremque in est. Harum placeat molestias expedita explicabo rerum cumque, reiciendis doloremque nisi, iure iste officia delectus, laudantium perspiciatis provident tempora sit. Commodi tempore amet tempora quos asperiores exercitationem rem! Rem rerum quam molestiae numquam a. Nam illum cumque, magni doloremque laborum aut quos! Error suscipit saepe dolores quae ratione unde est ullam, quia repudiandae nemo voluptate mollitia exercitationem ipsam maxime cumque aperiam.</textarea
+            >
+          </div>
+
+          <input class="download-btn" type="button" value="Sözleşmeyi İndir" />
+        </fieldset>
+
+        <fieldset class="fieldset">
+          <legend>Mail Listesi</legend>
+          <div class="mail-box">
+            <label for="mail-1">Mail Listesine Katılmak İstiyorum.</label>
+            <input
+              type="radio"
+              name="seçenek"
+              id="mail-1"
+              value="Katılmak istiyorum"
+            />
+          </div>
+
+          <div class="mail-box">
+            <label for="mail-2">Mail Listesine Katılmak İstemiyorum.</label>
+            <input
+              type="radio"
+              name="seçenek"
+              id="mail-2"
+              value="Katılmak istemiyorum"
+            />
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
