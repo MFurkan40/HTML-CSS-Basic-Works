@@ -11,4 +11,4 @@
 - Create the same picture you see below using HTML/CSS codes, Your final result should look very close to this mockup.
   <br><hr>
 
-<img src="./assignment.png" height="500 px"/>
+<img src="./img/assignment.png" height="500 px"/>
