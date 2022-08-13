@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  border: 3px solid blue;
+  width: 800px;
+  height: 350px;
+  margin: 15% auto;
+}
+
+.img {
+  float: left;
+}
+
+.text {
+  text-align: justify;
+}
+
+.set-box {
+  margin: 100px 30px 40px;
+}
+
+.img img {
+  width: 160px;
+  height: 170px;
+  /* border: 1px solid red; */
+}
+
+.clear-fix {
+  margin: 0 120px;
+  clear: both;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
