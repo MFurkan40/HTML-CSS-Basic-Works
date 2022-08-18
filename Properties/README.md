@@ -18,7 +18,7 @@ At the end of the this coding challenge, students will be able to;
 
 - Write a code that creates a page in the image.
 
-![CSS Margin](./margin.png)
+![CSS Margin](./img/margin.png)
 
 
 You can find Clarusway Logo in the [images](./images/) folder
