@@ -1,0 +1,75 @@
+/** Importing Color Themes*/
+@import "color-theme.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ff-monteserrat);
+  font-weight: 600;
+}
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.left,
+.middle,
+.right {
+  width: 33.33%;
+}
+
+.left {
+  background-color: var(--gray-9);
+  box-shadow: var(--light-shadow);
+}
+
+.left img {
+  width: 45px;
+  height: 45px;
+}
+
+.middle {
+  text-align: center;
+  background-color: var(--blue-10);
+  box-shadow: var(--dark-shadow);
+  border-radius: 10px;
+}
+
+.middle .item {
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px;
+  color: var(--black);
+  transition: transform 0.5s, background-color 1s, color 1s;
+}
+
+.middle .item:hover {
+  background-color: var(--blue-6);
+  border-radius: 5px;
+  color: var(--white);
+  transform: scale(1.1, 1.2);
+}
+
+.right {
+  text-align: right;
+  background-color: var(--blue-6);
+  box-shadow: var(--light-shadow);
+}
+
+.right .fab {
+  color: var(--black);
+  font-size: 45px;
+  transition: transform 0.8s;
+}
+
+.right .fab:hover {
+  transform: scale(1.15);
+}

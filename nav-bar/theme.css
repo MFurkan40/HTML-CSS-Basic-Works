@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,400;1,500&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Lato', sans-serif; */
+:root {
+  --blue1: hsl(205, 100%, 30%);
+  --blue2: hsl(205, 100%, 40%);
+  --blue3: hsl(205, 100%, 50%);
+  --blue4: hsl(205, 100%, 60%);
+  --blue5: hsl(205, 100%, 70%);
+
+  /* MAIN COLOR LIGHT TONES */
+  --blue-6: hsl(205, 89%, 70%);
+  --blue-7: hsl(205, 90%, 76%);
+  --blue-8: hsl(205, 86%, 81%);
+  --blue-9: hsl(205, 90%, 88%);
+  --blue-10: hsl(205, 100%, 96%);
+  --blue-11: hsl(205, 3%, 95%);
+
+  /* FOR HEADİNG*/
+  --gray-1: hsl(209, 61%, 16%);
+  --gray-2: hsl(211, 39%, 23%);
+  --gray-3: hsl(209, 34%, 30%);
+  --gray-4: hsl(209, 28%, 39%);
+
+  /* FOR PARAGRAPHS */
+  --gray-5: hsl(210, 22%, 49%);
+  --gray-6: hsl(209, 23%, 60%);
+  --gray-7: hsl(211, 27%, 70%);
+  --gray-8: hsl(210, 31%, 80%);
+  --gray-9: hsl(212, 33%, 89%);
+  --gray-10: hsl(210, 36%, 96%);
+
+  --black: hsl(0, 0%, 0%);
+  --white: hsl(0, 0%, 100%);
+  --dark-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+  --light-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  --ff-monteserrat: "Montserrat", sans-serif;
+  --ff-lato: "Lato", sans-serif;
+  --ff-roboto: "Roboto", sans-serif;
+}
